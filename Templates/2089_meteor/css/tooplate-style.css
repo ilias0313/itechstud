@@ -74,8 +74,8 @@ p {
     z-index: 10000;
     transition: all 0.2s ease-in-out;
     height: 80px;
-    background-color:transparent;  
-    
+    background-color:transparent;
+
     text-align: center;
     line-height: 40px;
 }
@@ -151,6 +151,9 @@ p {
 }
 .page-section {
     padding: 80px 0;
+}
+.page-about-section{
+    padding: 50px 0;
 }
 .navbar-inverse .navbar-toggle {
 	margin-top: 22px;
@@ -566,7 +569,8 @@ ul.cd-hero-slider {
 }
 
 #contact .section-heading {
-	margin-bottom: 60px;
+  margin-top: 80px;
+	margin-bottom: 80px;
 }
 
 #contact {
@@ -940,7 +944,7 @@ body.lb-disable-scrolling {
 
 @media (max-width: 1015px){
 	.slide-caption .content-caption p {
-		padding: 0 10%;
+		padding: 0 0;
 	}
 	.service-item {
 		margin-bottom: 30px;
