@@ -1,7 +1,26 @@
-.navbarLogo{
-  text-align: center;
+.navbarLeft, a {
+  padding-left: 15px;
 }
 
-.navbarItems {
-  text-align: center;
+.navbarRight, ul {
+  padding-right: 15px;
+}
+
+.carouselTextCenter {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+.social-icons, ul, li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.advantagesBoxes{
+    margin: 10px;
+    padding: 10px;
+    border: 5px;
+    border-style: solid;
+
 }
