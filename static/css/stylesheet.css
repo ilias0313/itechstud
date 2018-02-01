@@ -37,6 +37,8 @@ html {
 body {
     margin: 0 0 100px;
 }
+
+
 footer {
     position: absolute;
     left: 0;
@@ -53,4 +55,26 @@ footer {
   padding-right: 0;
   padding-left: 0;
 
+}
+
+
+/* CONTACT.PHP */ 
+
+.boxContactUs{
+  height: 145px;
+}
+
+.titlesConctactUs{
+  bottom: 50px;
+}
+
+.topSection {
+ margin-top: 250px;
+}
+
+#contact {
+  background-image: url(../img/contact.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
 }
