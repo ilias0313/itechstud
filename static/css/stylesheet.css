@@ -35,10 +35,10 @@ html {
     min-width: 100%;
 }
 body {
+    height: 100%;
     margin: 0 0 100px;
 
 }
-
 footer {
     position: absolute;
     left: 0;
@@ -78,19 +78,19 @@ footer {
   background-size: cover;
 }
 
-.ImageAbout{
+.sectionAbout{
     position:relative;
-    width: 100%;
     height: 100%;
+    width: 100%;
     opacity: 0.5;
+    z-index: -1;
+
 }
-.textImage{
-    position:absolute;
+
+.aboutText{
+    position: absolute;
     top: 80px;
-    color: black;
 }
-
-
 /* AGENCY STYLESHEET */
 .timeline {
   position: relative;
@@ -205,8 +205,12 @@ footer {
 }
 
 @media (min-width: 320px) {
+    .team-member{
+        margin-top: 150px;
+    }
+
     .timeline{
-        margin-top: 550px;
+        margin-top: 50px;
     }
 
   .timeline:before {
@@ -242,6 +246,10 @@ footer {
 
 
 @media (min-width: 768px) {
+    .team-member{
+        margin-top: 50px;
+    }
+
     .timeline{
         margin-top: 250px;
     }
@@ -280,6 +288,9 @@ footer {
 
 
 @media (min-width: 992px) {
+    .team-member{
+        margin-top: 25px;
+    }
 
     .timeline{
         margin-top: 100px;
@@ -326,7 +337,7 @@ footer {
 }
 
 .team-member {
-  margin-bottom: 50px;
+
   text-align: center;
 }
 
