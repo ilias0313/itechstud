@@ -71,11 +71,13 @@ footer {
  margin-top: 250px;
 }
 
-#contact {
-  background-image: url(img/contact.jpg);
+.imageContact {
+  background-image: url("../../img/contact.jpg");
   background-repeat: no-repeat;
-  width: 100%;
   background-size: cover;
+  width: 100%;
+    
+    
 }
 
 .sectionAbout{
