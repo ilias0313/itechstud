@@ -73,12 +73,19 @@ footer {
 }
 
 .imageContact {
-  background-image: url("../../img/contact.jpg");
-  background-repeat: no-repeat;
+  background-image: url("../../img/contact.jpg");   
+}
+
+.bannerImage{
+  background-repeat: repeat;
   background-size: cover;
-  width: 100%;
-    
-    
+  min-height: 400px;
+  width: 100%; 
+}
+
+.imageTitle{
+  font-weight: bold;
+  margin-top: 60px;
 }
 
 .sectionAbout{
