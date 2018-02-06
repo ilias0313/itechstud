@@ -23,6 +23,20 @@
     border: 5px;
     border-style: solid;
 }
+
+
+.bannerImage{
+  background-repeat: repeat;
+  background-size: cover;
+  min-height: 400px;
+  width: 100%; 
+}
+
+.imageTitle{
+  font-weight: bold;
+  margin-top: 60px;
+}
+
 *{
 margin:0;
 padding:0;
@@ -73,13 +87,18 @@ footer {
 }
 
 .imageContact {
+<<<<<<< HEAD
   background-image: url("../../img/contact.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
 
 
+=======
+  background-image: url("../../img/contact.jpg");   
+>>>>>>> 63018c7d95a3f53e99cf9c593441e8d34a4f3ce2
 }
+
 
 .sectionAbout{
     position:relative;
