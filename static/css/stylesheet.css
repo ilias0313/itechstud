@@ -1,3 +1,29 @@
+*{
+margin:0;
+padding:0;
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+}
+body {
+    height: 100%;
+    margin: 0 0 100px;
+
+
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+}
+
+
 .navbarLeft, a {
   padding-left: 15px;
 }
@@ -40,31 +66,6 @@
     margin-top: 60px;
 }
 
-*{
-margin:0;
-padding:0;
-}
-
-
-html {
-    position: relative;
-    min-height: 100%;
-    min-width: 100%;
-}
-body {
-    height: 100%;
-    margin: 0 0 100px;
-
-
-}
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 80px;
-    width: 100%;
-}
-
 .bg-light {
     background-color: #eeeeee!important;
 }
@@ -73,7 +74,6 @@ footer {
   padding-right: 0;
   padding-left: 0;
 }
-
 
 /* CONTACT.PHP */
 
@@ -107,7 +107,6 @@ footer {
 }
 
 .aboutText{
-    position: absolute;
     top: 80px;
 }
 /* AGENCY STYLESHEET */
@@ -226,17 +225,27 @@ footer {
 /* Newline stylesheet  */
 
 .imageServices{
-  /*background-image: url("../../img/services.jpg");*/
+  background-image: url("../../img/left-about-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
   /*width: 100vw;*/
 }
 
+.imageAbout{
+  background-image: url("../../img/left-about-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 2;
+
+  /*width: 100vw;*/
+}
+
+
 
 @media (min-width: 320px) {
     .team-member{
-        margin-top: 150px;
+        margin-top: 50px;
     }
 
     .timeline{
@@ -281,7 +290,7 @@ footer {
     }
 
     .timeline{
-        margin-top: 250px;
+        margin-top: 50px;
     }
 
   .timeline:before {
@@ -323,7 +332,7 @@ footer {
     }
 
     .timeline{
-        margin-top: 100px;
+        margin-top: 50px;
     }
   .timeline > li {
     min-height: 150px;
@@ -348,7 +357,7 @@ footer {
 
 @media (min-width: 1200px) {
   .timeline > li {
-    min-height: 170px;
+    min-height: 50px;
   }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px 100px;
