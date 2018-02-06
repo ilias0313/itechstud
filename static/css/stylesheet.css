@@ -29,12 +29,15 @@
   background-repeat: repeat;
   background-size: cover;
   min-height: 400px;
-  width: 100%; 
+  width: 100%;
 }
 
 .imageTitle{
   font-weight: bold;
-  margin-top: 60px;
+}
+
+.bannerCenter{
+    margin-top: 60px;
 }
 
 *{
@@ -83,22 +86,16 @@ footer {
 }
 
 .topSection {
- margin-top: 250px;
+ margin-top: 75px;
 }
 
 .imageContact {
-<<<<<<< HEAD
   background-image: url("../../img/contact.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-
-
-=======
-  background-image: url("../../img/contact.jpg");   
->>>>>>> 63018c7d95a3f53e99cf9c593441e8d34a4f3ce2
 }
 
+.lineOnBanner{
+  background-color:white;
+}
 
 .sectionAbout{
     position:relative;
