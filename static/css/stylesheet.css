@@ -226,6 +226,11 @@ nav.shift ul li a:hover:after {
   height: 145px;
 }
 
+
+.formColor{
+  background-color: #133fe91c;
+}
+
 .titlesConctactUs{
   bottom: 50px;
 }
@@ -239,9 +244,11 @@ nav.shift ul li a:hover:after {
 }
 
 .lineOnBanner{
-  background-color:white;
-  width: 50%;
 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(255, 255, 255);
 }
 
 .sectionAbout{
