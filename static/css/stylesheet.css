@@ -30,6 +30,7 @@ nav {
   background: #fff;
   padding: 50px 0;
   box-shadow: 0px 3px 0px #dedede;
+  font-size: 12px;
 }
 nav ul {
   list-style: none;
@@ -56,7 +57,12 @@ nav ul li a:hover {
   color: #555;
 }
 
-
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,210,75);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,210,75, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
 /* navbar shift */
 nav.shift ul li a {
@@ -224,6 +230,11 @@ nav.shift ul li a:hover:after {
   height: 145px;
 }
 
+
+.formColor{
+  background-color: #133fe91c;
+}
+
 .titlesConctactUs{
   bottom: 50px;
 }
@@ -237,9 +248,11 @@ nav.shift ul li a:hover:after {
 }
 
 .lineOnBanner{
-  background-color:white;
-  width: 50%;
 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(255, 255, 255);
 }
 
 .sectionAbout{
