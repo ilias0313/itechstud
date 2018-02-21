@@ -226,6 +226,7 @@ nav.shift ul li a:hover:after {
     background-position: center;
     min-height: 150px;
     width: 100%;
+    margin-bottom: 0px;
 }
 
 .imageTitle {
@@ -578,11 +579,13 @@ nav.shift ul li a:hover:after {
     -o-transition: all 0.2s linear;
     -webkit-transition: all 0.2s linear;
 }
-
+.serviceSliderNav{
+    padding: 0px;
+    box-shadow: none;
+}
 .cd-hero {
-    top: 80px;
+
     z-index: 2;
-    position: relative;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -696,7 +699,6 @@ nav.shift ul li a:hover:after {
 
 .content {
     margin-bottom: 100px;
-    margin-top: -80px;
     background-color: #fff;
     border-top: 15px solid #ffbb05;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
@@ -742,10 +744,6 @@ nav.shift ul li a:hover:after {
 .heading {
     margin-top: 0px;
     text-align: center;
-    margin-bottom: 250px;
-}
-
-.heading h1 {
     background-color: #dc3545;
     /* ************ */
     width: 100vw;
@@ -755,9 +753,6 @@ nav.shift ul li a:hover:after {
     color: #fff;
     font-weight: 900;
     letter-spacing: 1px;
-}
-
-.heading span {
     font-size: 16px;
     text-transform: uppercase;
     color: #ffbb05;
