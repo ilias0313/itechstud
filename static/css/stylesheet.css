@@ -10,7 +10,7 @@ html {
 }
 body{
     height: 100%;
-    padding-bottom: 90px;
+    padding-bottom: 80px;
 }
 
 footer {
@@ -262,7 +262,7 @@ nav.shift ul li a:hover:after {
 
 .topSection {
     margin-top: 75px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .imageContact {
